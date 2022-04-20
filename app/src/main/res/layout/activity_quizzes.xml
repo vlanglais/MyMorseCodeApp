@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3B444B"
+    tools:context=".Quizzes">
+
+    <Button
+        android:id="@+id/btnQuiz1"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="Text to Code: Letters"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnQuiz2"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Code to Text: Letters"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnQuiz3"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Text to Code: Punctuation"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnQuiz4"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Code to Text: Punctuation"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnQuiz5"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Text to Code: Numbers"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnQuiz6"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Code to Text: Numbers"
+        android:textSize="20sp" />
+</LinearLayout>
